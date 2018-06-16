@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Evaluation_ASPNET_TECHNOBOOK.Models.FeedForm>
+@using Evaluation_ASPNET_TECHNOBOOK.Infrastructure
+
+@{
+    ViewBag.Title = "Feed";
+}
+
+<h2>Actualité</h2>
+
+<table class="table table-condensed">
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        @Html.DisplayFor(modelItem => item.Prenom) | @Html.DisplayFor(modelItem => item.DatePost)
+                    </div>
+                    <div class="panel-body">
+                        @Html.DisplayFor(modelItem => item.Text)
+                    </div>
+                    @if (SessionManager.Users.UsersID == item.UsersID)
+                    {
+                        <div class="panel-footer">
+                            <p>
+                                @Html.ActionLink("Modifier", "Modif", new { Id = item.Id, Text = item.Text }) | @Html.ActionLink("Supprimer", "SuppPost", new { Id = item.Id })
+                            </p>
+                        </div>
+                    }
+                    @*<p>@Html.DisplayFor(modelItem =>)</p>*@
+                </div>
+            </td>
+
+        </tr>
+    }
+
+</table>

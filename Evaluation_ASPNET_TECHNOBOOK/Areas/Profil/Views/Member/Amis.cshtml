@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Evaluation_ASPNET_TECHNOBOOK.Areas.Profil.Models.AmisForm>
+
+@{
+    ViewBag.Title = "Amis";
+}
+
+<h2>Amis</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Prenom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateNaissance)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateDinscription)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Prenom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateNaissance)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateDinscription)
+        </td>
+        <td>
+            <button class="btn btn-dark">@Html.ActionLink("Retirer de vos amis", "SuppAmis", new { UsersID = item.UsersID })</button>
+        </td>
+    </tr>
+}
+
+</table>

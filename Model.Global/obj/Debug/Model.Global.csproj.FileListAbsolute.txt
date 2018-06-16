@@ -1,0 +1,9 @@
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\Model.Global\bin\Debug\Model.Global.dll
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\Model.Global\bin\Debug\Model.Global.pdb
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\Model.Global\bin\Debug\ToolBoxNET.dll
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\Model.Global\bin\Debug\ToolBoxNET.pdb
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\Model.Global\obj\Debug\Model.Global.csprojAssemblyReference.cache
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\Model.Global\obj\Debug\Model.Global.csproj.CoreCompileInputs.cache
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\Model.Global\obj\Debug\Model.Global.csproj.CopyComplete
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\Model.Global\obj\Debug\Model.Global.dll
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\Model.Global\obj\Debug\Model.Global.pdb

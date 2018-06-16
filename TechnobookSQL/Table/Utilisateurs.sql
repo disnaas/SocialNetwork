@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[Utilisateurs]
+(
+	[UsersID] INT NOT NULL IDENTITY(1,1),
+	[Nom] VARCHAR(25) NOT NULL,
+	[Prenom] VARCHAR(25) NOT NULL,
+	[AdresseMail] VARCHAR(200) NOT NULL UNIQUE,
+	[Password] VARBINARY(64) NOT NULL,
+	[DateNaissance] DATETIME2(7) NOT NULL,
+	[DateInscription] DATETIME2(7) NOT NULL DEFAULT GETDATE()
+
+	CONSTRAINT PK_UserID PRIMARY KEY (UsersID)
+
+)

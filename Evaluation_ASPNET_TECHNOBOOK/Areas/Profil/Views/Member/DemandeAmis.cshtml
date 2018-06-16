@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Evaluation_ASPNET_TECHNOBOOK.Areas.Profil.Models.DemandeAmis>
+
+@{
+    ViewBag.Title = "DemandeAmis";
+}
+
+<h2>Demande d'amis en cours</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Prenom)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Prenom)
+        </td>
+        <td>
+            <button class="btn btn-success">@Html.ActionLink("Accepter", "CanAdd", new { UsersID = item.UsersID })</button>
+            <button class="btn btn-danger">@Html.ActionLink("Refuser", "SuppAmis", new { UsersID = item.UsersID })</button>
+        </td>
+    </tr>
+}
+
+</table>

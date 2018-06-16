@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[Amis]
+(
+	[UsersID] INT NOT NULL,
+	[AmisID] INT NOT NULL,
+	[EstAMIS] BIT NOT NULL DEFAULT 0,
+	[DemandeAmis] BIT NOT NULL DEFAULT 0
+
+	CONSTRAINT FK_UserID_User FOREIGN KEY (UsersID) REFERENCES Utilisateurs(UsersID),
+	CONSTRAINT FK_AmisID_User FOREIGN KEY (AmisID) REFERENCES Utilisateurs(UsersID)
+)

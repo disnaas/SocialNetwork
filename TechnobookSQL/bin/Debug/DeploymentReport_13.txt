@@ -1,0 +1,26 @@
+﻿** Met en surbrillance
+     Tables à reconstruire
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Créer
+       [dbo].[Amis] (Table)
+       [dbo].[Fil] (Table)
+       [dbo].[Utilisateurs] (Table)
+       Contrainte par défaut: contrainte sans nom sur [dbo].[Amis] (Contrainte par défaut)
+       Contrainte par défaut: contrainte sans nom sur [dbo].[Fil] (Contrainte par défaut)
+       Contrainte par défaut: contrainte sans nom sur [dbo].[Utilisateurs] (Contrainte par défaut)
+       [dbo].[FK_UserID_User] (Clé étrangère)
+       [dbo].[FK_AmisID_User] (Clé étrangère)
+       [dbo].[FK_UsersID] (Clé étrangère)
+       [dbo].[SP_AddFil] (Procédure)
+       [dbo].[SP_CheckUser] (Procédure)
+       [dbo].[SP_New_User] (Procédure)
+
+** Actions de support

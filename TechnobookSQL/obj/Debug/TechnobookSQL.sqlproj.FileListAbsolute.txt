@@ -1,0 +1,10 @@
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\TechnobookSQL\bin\Debug\TechnobookSQL.dacpac
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\TechnobookSQL\bin\Debug\TechnobookSQL.dll
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\TechnobookSQL\bin\Debug\TechnobookSQL.pdb
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\TechnobookSQL\obj\Debug\Model.xml
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\TechnobookSQL\obj\Debug\refactor.xml
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\TechnobookSQL\obj\Debug\postdeploy.sql
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\TechnobookSQL\obj\Debug\predeploy.sql
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\TechnobookSQL\obj\Debug\TechnobookSQL.dll
+c:\users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\TechnobookSQL\obj\Debug\TechnobookSQL.pdb
+C:\Users\test\source\repos\Evaluation_ASPNET_TECHNOBOOK\TechnobookSQL\obj\Debug\TechnobookSQL.sqlprojAssemblyReference.cache
